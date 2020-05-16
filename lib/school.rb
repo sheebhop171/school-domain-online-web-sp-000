@@ -11,5 +11,6 @@ class School
       roster[grade] << name
     end
   end
+  end
 
 end

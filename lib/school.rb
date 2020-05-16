@@ -13,4 +13,9 @@ class School
       roster[grade] = [name]
     end
   end
+
+  def grade(grade)
+     roster[grade] each do |grade, name|
+       
+  end
 end

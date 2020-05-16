@@ -6,4 +6,10 @@ class School
     @roster = {}
   end
 
+  def add_student(name, grade)
+    if roster[grade] = name
+      roster[grade] << name
+    end
+  end
+
 end
